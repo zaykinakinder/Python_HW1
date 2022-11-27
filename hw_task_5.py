@@ -1,0 +1,11 @@
+import math
+print('Insert first coord')
+X_1 = int(input())
+print('Insert second coord')
+Y_1= int(input())
+print('Insert first coord')
+X_2= int(input())
+print('Insert second coord')
+Y_2 = int(input())
+e = ((X_2-X_1)**2 +(Y_2-Y_1)**2)
+print (math.sqrt(e))
